@@ -1,0 +1,109 @@
+body{
+    background-color: #eee;
+  }
+  
+.container{
+    width: 500px;
+    height: 300px;
+    margin:25vh auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
+}
+
+.header {
+    height: 20%;
+    background-color: #FF9800;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    position:relative;
+}
+
+#temp, #humidity-div {
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.city-icon-holder {
+    position:absolute;
+    left: 25%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#city-name {
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#icon {
+    width:50%;  
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.city-icon {
+    height: 80%;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    background-color: #FFC107;
+}
+
+.temperature {
+    position: absolute;
+    left: 50%;
+    top:0%;
+    height: 40%;
+    width: 50%;
+    background-color: #9C27B0;
+}
+
+.humidity {
+    height: 40%;
+    width: 50%;
+    position:absolute;
+    left:50%;
+    top:40%;
+    border-bottom-right-radius: 25px;
+    background-color: #E91E63;
+}
+
+#search-btn {
+    width: 40px;
+    height:40px;
+    color: #eee;
+}
+
+#search-txt {
+    color: red;
+    height:30px;
+    border-radius: 10px;
+    border-style:none;
+    outline:none;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:center;
+}
+
+.search {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+}
