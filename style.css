@@ -1,3 +1,6 @@
+html{
+    height: 300px;
+}
 body{
     background-color: #eee;
   }
@@ -5,7 +8,6 @@ body{
 .container{
     width: 500px;
     height: 300px;
-    margin:25vh auto;
     border-radius: 25px;
     box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
 }
